@@ -4,7 +4,8 @@ from django.db import models
 from django.db import models
 
 
-class users(models.Model):
+class Users(models.Model):
+    name = models.TextField()
     email = models.TextField()
     login = models.TextField()
     password = models.TextField()
